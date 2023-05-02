@@ -1,0 +1,333 @@
+<mxfile host="app.diagrams.net" modified="2023-04-23T21:18:55.377Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CKQcL5npQ5Z9wSTcY-8W" version="21.1.5" type="device">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7baba1c4bc27f4b0-4" value="&lt;span&gt;Vehicle_M&lt;br&gt;or&lt;br&gt;Vehicle_N ...&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-2" value="&lt;span&gt;Radar_OEM_A&lt;br&gt;or&lt;br&gt;Radar_OEM_B ...&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" parent="FOGP5-XpGV-QJY2CxuVh-2" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fontStyle=1" vertex="1" parent="FOGP5-XpGV-QJY2CxuVh-2">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-8" value="&lt;span&gt;Substrate Data Market Pallet&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-2" value="&lt;span&gt;Vehicle_OEM_X&lt;br&gt;or&lt;br&gt;Vehicle_OEM_Y ...&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="80" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-36" value="&lt;b&gt;Asset Radar Data NFT Monetisation Overview&lt;/b&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="-200" y="50" width="390" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-37" value="&lt;b&gt;Asset&amp;nbsp; Radar Signature Service NFT Monetisation Overview&lt;/b&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="-200" y="240" width="390" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.3;exitY=0.163;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-7" value="Data Demand&amp;nbsp; &lt;br&gt;Broadcast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-4">
+          <mxGeometry x="0.4377" relative="1" as="geometry">
+            <mxPoint x="-40" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="FOGP5-XpGV-QJY2CxuVh-2" target="7baba1c4bc27f4b0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="310" />
+              <mxPoint x="440" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.49;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-9" value="Submit Data Consent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-8">
+          <mxGeometry x="-0.1971" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.51;exitY=0.196;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-11" value="Asset Data NFT Created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-10">
+          <mxGeometry x="-0.1378" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.229;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-15" value="Encrypted Bid for NFT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-12">
+          <mxGeometry x="-0.6133" relative="1" as="geometry">
+            <mxPoint x="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="sourcePoint" />
+            <mxPoint x="570" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-17" value="Decrypt and Accept Bid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-16">
+          <mxGeometry x="0.5071" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-19" value="Start Data Collection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-18">
+          <mxGeometry x="-0.2811" y="1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-21" value="Upload Data with Proof" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-20">
+          <mxGeometry x="-0.2071" y="1" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.48;exitY=0.329;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="358" y="227.92000000000007" as="sourcePoint" />
+            <mxPoint x="229.5" y="227.92000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-26" value="Upload Collated&lt;br&gt;Data Proof" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-22">
+          <mxGeometry x="0.2419" y="-1" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-24" value="" style="endArrow=classic;html=1;rounded=0;shape=link;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="210" as="sourcePoint" />
+            <mxPoint x="239.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-25" value="Transfer Amount to Escrow&lt;br&gt;&amp;amp; Transfer NFT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-24">
+          <mxGeometry x="-0.3533" y="-3" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="FOGP5-XpGV-QJY2CxuVh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="250" as="sourcePoint" />
+            <mxPoint x="239.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-28" value="Generate OAuth for Privacy Data &amp;amp; Offchain Upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-27">
+          <mxGeometry x="0.5621" y="2" relative="1" as="geometry">
+            <mxPoint x="78" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="270" as="sourcePoint" />
+            <mxPoint x="240" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-30" value="Access Data &amp;amp; &lt;br&gt;Submit Review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-29">
+          <mxGeometry x="-0.6744" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-8" target="7baba1c4bc27f4b0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-32" value="Transfer Bid Comission" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-31">
+          <mxGeometry x="-0.4036" y="-2" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.5" y="290" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-34" value="Transfer Bid Amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-33">
+          <mxGeometry x="-0.4474" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FOGP5-XpGV-QJY2CxuVh-6" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="sourcePoint" />
+            <mxPoint x="570" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-39" value="Asset Service&lt;br&gt;Broadcast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-38">
+          <mxGeometry x="-0.3358" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="sourcePoint" />
+            <mxPoint x="349.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-42" value="Consent for Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-41">
+          <mxGeometry x="0.5632" relative="1" as="geometry">
+            <mxPoint x="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.49;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.5" y="375.20000000000005" as="sourcePoint" />
+            <mxPoint x="229" y="375.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-44" value="Submit Initial Consent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-43">
+          <mxGeometry x="0.3257" y="1" relative="1" as="geometry">
+            <mxPoint x="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-46" value="Asset Service&lt;br&gt;&amp;nbsp;NFT Created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-45">
+          <mxGeometry x="-0.5643" relative="1" as="geometry">
+            <mxPoint x="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.53;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-48" value="Submit Encrypted &lt;br&gt;NFT Bid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-47">
+          <mxGeometry x="0.588" y="-1" relative="1" as="geometry">
+            <mxPoint x="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="420" as="sourcePoint" />
+            <mxPoint x="230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-50" value="Accept Bid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-49">
+          <mxGeometry x="-0.3523" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-51" value="" style="endArrow=classic;html=1;rounded=0;shape=link;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.5" y="430" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-52" value="Transfer Amount to Escrow &amp;amp; Transfer NFT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-51">
+          <mxGeometry x="0.6423" y="2" relative="1" as="geometry">
+            <mxPoint x="84" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="450" as="sourcePoint" />
+            <mxPoint x="230" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-55" value="Generate Service OAuth &lt;br&gt;&amp;amp; Submit Proof&amp;nbsp;&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-53">
+          <mxGeometry x="-0.6655" y="-3" relative="1" as="geometry">
+            <mxPoint x="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-57" value="Submit Service OAuth Offlchain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-56">
+          <mxGeometry x="-0.1074" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.5" y="480" as="sourcePoint" />
+            <mxPoint x="490" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-59" value="Submit Service OAuth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-58">
+          <mxGeometry x="-0.5632" y="1" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7baba1c4bc27f4b0-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.5" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-61" value="Submit NFT Service Review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-60">
+          <mxGeometry x="0.5423" y="-1" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="FOGP5-XpGV-QJY2CxuVh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.5" y="510" as="sourcePoint" />
+            <mxPoint x="570" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-63" value="Transfer Service &lt;br&gt;Subscription Amount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-62">
+          <mxGeometry x="0.5786" y="2" relative="1" as="geometry">
+            <mxPoint x="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.5" y="520" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FOGP5-XpGV-QJY2CxuVh-65" value="Transfer Bid Comission" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FOGP5-XpGV-QJY2CxuVh-64">
+          <mxGeometry x="-0.5939" y="-1" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

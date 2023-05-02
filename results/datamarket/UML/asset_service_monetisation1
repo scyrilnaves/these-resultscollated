@@ -1,0 +1,40 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+title Asset Service Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Road Radar Signature Service Demand Start ==
+Radar_OEM_A-[#green]->DataMarket: Create an Event for Road Radar Signature Service as an Asset
+note over Radar_OEM_A,DataMarket: Service according to location, Type, Speed of Vehicle, Price of Service Subscription
+
+DataMarket-> Vehicle_OEM_A: BroadCast Asset Service Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Asset Service Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Radar Service Offering
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to Road Radar Signature Service
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Radar Service Offering
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to Road Radar Signature Service
+== Road Radar Signature Service Demand End ==
+
+== Asset Service as Non Fungible Token Offering Start ==
+Radar_OEM_A->DataMarket:Create Asset_Service_A  as Non Fungible Asset Service Token for the Demand
+note over Radar_OEM_A,DataMarket:Asset Service: Road Radar Signature Created according to criteria, expected price and intimated to Vehicle_OEM_A
+== Asset Service as Non Fungible Token Offering End ==
+
+== Bid for Asset Service Start ==
+Vehicle_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_Service_A
+note over Vehicle_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Radar_OEM_A
+Vehicle_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_Service_A
+note over Vehicle_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Radar_OEM_B
+Radar_OEM_A->DataMarket: Accepts the Bid of Asset_Service_A, amount of the bid is transferred from Vehicle_A to the Escrow
+note over Radar_OEM_A,DataMarket: Considering the Bid by Vehicle_OEM_B is less the price acceptable by the Radar_OEM_A
+== Bid for Asset Service End ==
+
+@enduml

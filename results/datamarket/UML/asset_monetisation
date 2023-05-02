@@ -1,0 +1,43 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+title Asset Monetisation
+
+actor DataMarket #blue
+actor Vehicle_OEM_A #green
+actor Vehicle_OEM_B #green
+actor Radar_OEM_A #yellow
+actor Radar_OEM_B #yellow
+actor Vehicle_A #brown
+actor Vehicle_B #brown
+
+== Data Demand Start ==
+Radar_OEM_A-[#green]->DataMarket:Need Radar Data
+note over Radar_OEM_A,DataMarket: Data according to location, Type, Speed of Vehicle, Price of Data
+
+DataMarket-> Vehicle_OEM_A: BroadCast Data Demand
+DataMarket-> Vehicle_OEM_B: BroadCast Data Demand
+
+Vehicle_OEM_A<-> Vehicle_A: Get Consent for Data monetisation
+note over Vehicle_OEM_A,Vehicle_A: Vehicle Consents to transfer the data
+Vehicle_OEM_B<-> Vehicle_B: Get Consent for Data monetisation
+note over Vehicle_OEM_B,Vehicle_B: Vehicle Consents to transfer the data
+== Data Demand End ==
+
+== Asset as Non Fungible Token Offering Start ==
+Vehicle_OEM_A->DataMarket:Create Asset_A  as Non Fungible Token for the Demand
+note over Vehicle_OEM_A,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+Vehicle_OEM_B->DataMarket:Create Asset_B along  as Non Fungible Token for the Demand
+note over Vehicle_OEM_B,DataMarket:Asset Created according to criteria, expected price and intimated to Radar_OEM_A
+== Asset as Non Fungible Token Offering End ==
+
+== Bid for Asset Start ==
+Radar_OEM_A->DataMarket: Submits an Encrypted Bid for the Asset_A
+note over Radar_OEM_A,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_A
+Radar_OEM_B->DataMarket: Submits an Encrypted Bid for the Asset_B
+note over Radar_OEM_B,DataMarket: Bid Price is encrypted with the public key of the Vehicle_OEM_B
+Vehicle_OEM_A->DataMarket: Accepts the Bid of Asset_A, amount of the bid is transferred from Radar_OEM_A to the Escrow
+note over Vehicle_OEM_A,DataMarket: Considering the Bid of Asset_B is below the price acceptable by the Radar_OEM_A
+== Bid for Asset End ==
+
+
+@enduml
